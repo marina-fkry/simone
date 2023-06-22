@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar-nav .nav-link.active{
+     color: #20C997;
+
+}
+
+.home {
+    background-image: url(../photo/office.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    
+    position: relative;
+
+}
+/*.collapse{
+    position: relative;
+    left:18%;
+}*/
+.navbar ul li a {
+    text-decoration: none;
+    margin: 10px;
+}
+.stop {
+    background-color: #555555;
+    color: aliceblue;
+    width: 40px;
+    height: 30px;
+    position: fixed;
+    left: 1200;
+    top: 230;
+    z-index: 999999;
+    border-radius: 5px;
+}
+.dd{
+    position: relative;
+    width: 50px;
+height: 1px;
+left:48%;
+top: 20%;
+}
+.layer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open {
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.open button {
+    width: 20%;
+    height: 7%;
+    border-width: 2px;
+    border-color: #20C997;
+    border-radius: 20px;
+    color: #20C997;
+   background-color: rgba(0, 0, 0, 0);
+    margin: 30px;
+}
+
+.open button:hover {
+    border: #F8F9FA;
+    background-color: #20C997;
+    color: aliceblue;
+}
+
+.color:hover {
+    color: #20C997;
+}
+
+.open p {
+    margin: 30px;
+}
+
+
+.two {
+    font-size: 50px;
+}
+
+.three {
+    font-size: 20px;
+}
+
+
+
+.logo img {
+    position: relative;
+    left: 15;
+    width: 100px;
+}
+.later{color: #20C997;}
+
+.latertwo {
+    color: #20C997;
+}
+.laterone{
+    font-size:30px ;
+}
+.link {
+    position: relative;
+    left: 250;
+}
+
+
+
+
+ul{list-style: none;}
+
+
+
+h1 {
+    margin: 30px;
+}
+
+h1::after {
+    content: '';
+    animation: title 3s infinite alternate;
+
+
+}
+
+@keyframes title {
+    0% {
+        content: '';
+    }
+
+    5% {
+        content: " photo|";
+    }
+
+    15% {
+        content: " photo gragher.|";
+    }
+
+    25% {
+        content: " photo gragher.| ";
+    }
+
+    35% {
+        content: " Desi|";
+    }
+
+    45% {
+        content: " Desiger.|";
+    }
+
+    55% {
+        content: " simone |";
+    }
+
+    65% {
+        content: " simone olivia.|";
+    }
+
+    75% {
+        content: " free|";
+    }
+
+    85% {
+        content: " freelancer.|";
+    }
+}
+
+/*اول سكشن*/
+.know{
+    position: relative;
+}
+.shado{
+    background-color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 106%;
+}
+.line1{
+    background-color: #20C997;
+    position: absolute;
+    left: 47%;
+    height: 1.6%;
+    width: 5%;
+}
+.know h3{
+   color: rgba(85, 85, 85 ,0.1);
+   font-size:100px ;
+
+}
+/*.bb{
+    position: relative;
+}
+.break1{
+    position: absolute;
+    left: 20%;
+    top: 5%;
+width: 50%;
+height: 0.4%;
+}
+
+.break2{
+    position: absolute;
+    left: 45%;
+    top: 17%;
+    width: 50%;
+    height: 0.4%;
+}
+
+.break3{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    width: 50%;
+    height: 0.2%
+}
+.break4{
+    position: absolute;
+    left: 45%;
+    top: 42%;
+    width: 50%;
+    height: 0.3%
+}*/
+
+.button1 {
+    width: 35%;
+    border-width: 2%;
+    border-radius: 20px;
+    color:#F8F9FA;
+    background-color: #20C997;
+    border-color:  #20C997;
+}
+.button1:hover{
+    background-color:#F8F9FA;
+    color: #20C997;
+    border-width: 2%;
+    border-color:  #20C997;
+}
+.one1 {
+     border-color: #b31919;
+    
+ }
+ 
+ /*تاني سكشن*/
+
+ .know2{
+    position: relative;
+}
+.shado2{
+    background-color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 106%;
+}
+.line2{
+    background-color: #20C997;
+    position: absolute;
+    left: 47%;
+    height: 1.6%;
+    width: 5%;
+
+}
+.know2 h3{
+   color: rgba(85, 85, 85 ,0.1);
+   font-size:100px ;
+   
+}
+
+/*السكشن التالت*/
+.know3{
+    position: relative;
+    
+}
+.shado3{
+    background-color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 106%;
+}
+.line3{
+    background-color: #20C997;
+    position: absolute;
+    left: 47%;
+    height: 1.6%;
+    width: 5%;
+
+}
+.know3 h3{
+   color: rgba(85, 85, 85 ,0.1);
+   font-size:100px ;
+   
+}
+.button3{
+    
+    width: 5%;
+}
+
+
